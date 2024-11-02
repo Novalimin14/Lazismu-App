@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LazisMuApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Jadwal.UpdateJadwalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Jadwal.TambahJadwalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Jadwal.Jadwal"
+            android:exported="false" />
+        <activity
+            android:name=".Mustahik.tambahMustahik"
+            android:exported="false" />
+        <activity
+            android:name=".Mustahik.Mustahik"
+            android:exported="false" />
+        <activity
+            android:name=".profile.ui.theme.tambahMuzzaki"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Laporan.tambahLaporan"
+            android:exported="false" />
+        <activity
+            android:name=".profile.ui.theme.Muzzaki"
+            android:exported="false" />
+        <activity
+            android:name=".Laporan.Laporan"
+            android:exported="false" />
+        <activity
+            android:name=".calculator.Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.ui.LoginActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

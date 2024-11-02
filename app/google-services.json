@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037612999828",
+    "project_id": "lazismu-wuryantoro",
+    "storage_bucket": "lazismu-wuryantoro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037612999828:android:060b3a6504c85eee670081",
+        "android_client_info": {
+          "package_name": "com.example.lazismuapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW9QadxNIXe-XFjZ4Lx55NpjObCs75PZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
